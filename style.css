@@ -1,0 +1,24 @@
+* {font-family: 'Montserrat', sans-serif; margin-left: 20px; margin-right: 20px; transition: 0.2s;}
+
+.fone {grid-area: fone;}
+.ftwo {grid-area: ftwo; margin-left: 50px;}
+
+.first {display: grid; grid-template-areas: 'fone ftwo'; width: 90%; height: 250px;}
+.first > div {width: 100%;}
+.first > div > img {width: 95%; box-shadow: 5px 5px 5px;}
+.first > div > img:hover {width: 94%; opacity: 0.7;}
+
+.sone {grid-area: sone;}
+.stwo {grid-area: stwo;}
+.sthree {grid-area: sthree;}
+.sfour {grid-area: sfour;}
+.sfive {grid-area: sfive;}
+.six {grid-area: ssix;}
+
+.second {display: grid; grid-template-areas: 'sone stwo sthree' 'sfour sfive ssix'; width: 90%; margin: 30px;}
+.second > div {width: 100%; margin: 10px;}
+.second > div > img {width: 90%; box-shadow: 5px 5px 5px;}
+.second > div > img:hover {width: 89%; opacity: 0.7;}
+
+h2:hover {color: darkslategrey; font-size: larger;}
+h1:hover {font-size: 50px;}
